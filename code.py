@@ -17,11 +17,11 @@ blink_time = 1000
 while True:
     #turns on LED
     led.value = True
-    #wait 1 second
-    time.sleep(1)
+    #wait 
+    time.sleep(blink_time)
     #turns LED off
     led.value = False
-    time.sleep(1)
+    time.sleep(blink_time)
 
     #blink time increases by 1 second
     blink_time += 1000
