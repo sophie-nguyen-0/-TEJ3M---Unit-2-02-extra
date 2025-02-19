@@ -11,7 +11,7 @@ import digitalio
 #variables
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
-blink_time = 1000
+blink_time = 1
 
 # loop
 while True:
@@ -24,4 +24,4 @@ while True:
     time.sleep(blink_time)
 
     #blink time increases by 1 second
-    blink_time += 1000
+    blink_time += 1
