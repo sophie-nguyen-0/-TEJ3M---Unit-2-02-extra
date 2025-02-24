@@ -1,8 +1,8 @@
 """
-blinking LED, but the dlayed time between each blink increases
+blinking LED, but the delayed time between each blink increases
 
-Feb 19
-Sophie Nguyen
+created on: Feb 19
+by: Sophie Nguyen
 """
 import time
 import board
